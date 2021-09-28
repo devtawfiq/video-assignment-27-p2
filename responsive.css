@@ -1,0 +1,388 @@
+.navigation {
+	display: none;
+}
+#m-nav {
+    position: relative;
+    top: -27px;
+    left: 4px;
+    display: none;
+}
+.navigation.colos {
+	display: none;
+}
+@media (max-width: 1210px) {
+    .container {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+    .btn-primary a {
+        padding: 10px 29px;
+    }
+}
+@media (max-width: 1110px) {
+
+    .logo a img {
+        width: 40px;
+    }
+    .logo a span {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .btn-primary a {
+        padding: 10px 25px;
+    }
+    .video-content h2 {
+	font-size: 35px;
+}
+    .video-content p {
+        font-size: 16px;
+    }
+    .about-box {
+        padding: 15px 5px;
+        margin-right: 20px;
+    }
+    .about-box span {
+        font-size: 40px;
+        width: 50px;
+    }
+    .about-box h3 {
+        font-size: 22px;
+    }
+    .about-box p {
+        font-size: 18px;
+   }
+   .about-title h1 {
+	font-size: 35px;
+	margin-bottom: 20px;
+    }
+    .about-title h4 {
+	font-size: 20px;
+	margin-bottom: 22px;
+    }
+    .clint-name img {
+	width: 60px;
+	height: 60px;
+	margin-left: 75px;
+    }
+    .clint-text p {
+        font-size: 16px;
+    }
+    .clint-text::before {
+        bottom: -232px;
+    }
+}
+@media (max-width: 1024px) {
+    .t-item {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .clint-text {
+        padding: 31px 40px;
+        margin: 38px 0;
+    }
+    .clint-text::before {
+	bottom: -211px;
+    }
+    .clint-text p {
+        font-size: 16px;
+    }
+    .about-box {
+        padding: 15px 8px;
+        margin-right: 15px;
+        box-sizing: border-box;
+    }
+    .about-box span {
+	font-size: 35px;
+	width: 43px;
+    }
+    .about-box h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 996px) {
+    .header {
+        position: relative;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .logo a img {
+        float: initial;
+    }
+    .logo a span {
+        position: relative;
+        top: -13px;
+        left: 0;
+    }
+
+    .menu ul {
+        visibility: hidden;
+        opacity: 0;
+        transform: scaleY(0);
+        transition: .4s;
+    }
+    .main-menu {
+        width: 100%;
+    }
+    .navigation {
+        font-size: 27px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+        width: 27px;
+    }
+    .menu{position: relative;}
+    .menu ul {
+        position: absolute;
+        top: 120%;
+        left: -10px;
+        background: #fff;
+        width: 285px;
+        height: 67vh;
+    }
+    .menu ul li {
+        display: block;
+    }
+    .menu ul li ul {
+        left: 135px;
+        top: -10px;
+        height: 234px;
+        z-index: 111;
+        display: block;
+    }
+    .menu #m-nav:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    .menu #m-nav:checked ~ .navigation{
+        display: none;
+    }
+    .menu #m-nav:checked ~ .navigation.colos{
+        display: block;
+    }
+    .btn-primary {
+        width: 140px;
+        position: absolute;
+        right: 0;
+        top: 44px;
+    }
+    .video-content h2 {
+        font-size: 24px;
+    }
+    .about-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .about-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .about-box {
+        padding: 15px 10px;
+        width: 48%;
+    }
+    .clint-name {
+        text-align: center;
+    }
+    .clint-name p {
+        width: 50%;
+        margin: auto;
+        margin-left: 31%;
+        margin-top: -27px;
+    }
+    .clint-name h5 {
+        margin-bottom: 8px;
+        position: relative;
+        top: -25px;
+    }
+    .clint-name p {
+        width: 50%;
+    }
+    .clint-name img {
+        margin-left: 75px;
+        float: initial;
+    }
+    .service-title h2 {
+        font-size: 33px;
+    }
+    .service-p p {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+    .s-item {
+        padding: 10px;
+    }
+    .s-item img {
+        width: 100%;
+    }
+}
+@media (max-width: 996px) {
+    .clint-text::before {
+        bottom: -137px;
+    }
+    .clint-content {
+        width: 100%;
+    }
+}
+@media (max-width: 780px) {
+    .video-content {
+        width: 100%;
+    }
+    .video-left {
+        width: 100%;
+    }
+    .pricing-content h4 {
+        font-size: 16px;    
+    }
+    .pricing-content h1 {
+        font-size: 32px;
+        margin: 21px 0 22px 0;
+    }
+    .pricing-content h5 {
+        font-size: 17px;
+        margin-bottom: 19px;
+    }
+    .about-title h1 {
+        font-size: 30px;
+    }
+    .about-title h4 {
+        font-size: 17px;
+    }
+    .pricing-content p {
+	font-size: 16px;
+	line-height: 25px;
+    }
+    .pricing-list ul li {
+        font-size: 13px;
+        line-height: 33px;
+    }
+    .pricing-list ul li span {
+        font-size: 22px;
+    }
+    .pricing-btn a.btn-primary-2 {
+        width: 82%;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .service-title h2 {
+        font-size: 33px;
+    }
+    .service-p p {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+    .s-item {
+        padding: 10px;
+    }
+    .s-item img {
+        width: 100%;
+    }
+}
+@media (max-width: 740px) {
+    .contact-left {
+        width: 100%;
+    }
+    .contact-right {
+	width: 100%;
+    }
+    button.submit-btn {
+        width: 200px;
+    }
+    .input-d {
+        width: 100%;
+    }
+    .w-right {
+        width: 48% !important;
+    }
+    .w-left {
+        width: 48% !important;
+    }
+}
+@media (max-width: 680px) {
+    .about-title h1 {
+        font-size: 27px;
+    }
+    .pricing-table {
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .input-d {
+        width: 89%;
+        margin: auto;
+        margin-bottom: 14px;
+    }
+    .newsletter-form {
+        margin-top: 40px;
+    }
+    
+    .clint-content {
+        width: 100%;
+    }
+    .clint-text::before {
+        bottom: -136px;
+    }
+    .input-d {
+        width: 100%;
+    }
+}
+@media (max-width: 560px) {
+    .banner-section {
+        padding: 141px 0;
+    }
+    .banner-content h3 {
+        font-size: 21px;
+    }
+    .banner-content h2 {
+        font-size: 39px;
+    }
+    .about-box {
+        width: 100%;
+    }
+}
+@media (max-width: 446px) {
+    .btn {
+	margin-bottom: 13px;
+    }
+    .video-content {
+            margin-top: 40px;
+    }
+    .about-title h1 {
+        font-size: 21px;
+    }
+    .about-title h4 {
+        font-size: 15px;
+    }
+    .t-item {
+	width: 100%;
+    }
+    .service-title {
+        width: 100%;
+    }
+    .service-p {
+        width: 100%;
+    }
+    .service-item-1 {
+        width: 100%;        
+    }
+    .service-item-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .clint-name p {
+        margin-top: -27px;
+    }
+    .clint-text::before {
+        bottom: -189px;
+    }
+    .contact-text h5 {
+        font-size: 24px;
+    }
+    .contact-text p {
+        font-size: 16px;
+    }
+}
